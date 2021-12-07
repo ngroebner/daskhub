@@ -1,18 +1,11 @@
 
-Daskhub
+Custom Daskhub
 ===========
 
-[![GitHub workflow status - DaskHub](https://img.shields.io/github/workflow/status/dask/helm-chart/Test%20daskhub%20chart?logo=github&label=daskhub)](https://github.com/dask/helm-chart/actions)
-[![DaskHub chart version](https://img.shields.io/badge/dynamic/yaml?url=https://helm.dask.org/index.yaml&label=daskhub&query=$.entries.daskhub[:1].version&color=277A9F&logo=helm)](https://helm.dask.org/)
-[![Dask version](https://img.shields.io/badge/dynamic/yaml?url=https://helm.dask.org/index.yaml&label=daskhub&query=$.entries.daskhub[:1].appVersion&color=D67548&logo=python&logoColor=white)](https://dask.org/)
+This chart the [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/)
+and [Dask Gateway](https://gateway.dask.org/) helm charts. It is based
+on the official daskhub chart, but modified for internal use.
 
-This chart provides a multi-user, Dask-Gateway enabled JupyterHub.
-It combines the [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/)
-and [Dask Gateway](https://gateway.dask.org/) helm charts.
-
-For single users, a simpler setup is supported by the `dask` helm chart.
-
-See [CHANGELOG](./CHANGELOG.md) for a information about changes in the `daskhub` helm chart.
 
 ## Chart Details
 
