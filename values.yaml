@@ -53,7 +53,7 @@ jupyterhub:
   singleuser:
     image:
       name: us-central1-docker.pkg.dev/daskhub-334012/groebnerconsulting/base-notebook  # Image to use for singleuser environment. Must include dask-gateway.
-      tag: 0.1
+      tag: latest
     defaultUrl: "/lab"  # Use jupyterlab by defualt.
 
 dask-gateway:
